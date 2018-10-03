@@ -13,10 +13,10 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Group 1</a>
+      <a id="logo-container" href="#" class="brand-logo indigo-text">Group 1</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Group Diary</a></li>
+        <li><a href="#bottom2">Group Diary</a></li>
         <li><a href="#">Group Project Report</a></li>
       </ul>
 
@@ -43,7 +43,10 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="/images/network-3537401_1920.jpg" alt="Unsplashed background img 1"></div>
+    <!--<div class="parallax"><img src="/images/network-3537401_1920.jpg" alt="Unsplashed background img 1"></div>-->
+    <video autoplay muted loop id="myVideo">
+      <source src="./videos/home-page-video.mp4" type="video/mp4">
+    </video>
   </div>
 
 
@@ -58,14 +61,14 @@
         <div class="col s12 m4">
           <div class="profile-container">
             <div class="profile-image-container">
-              <img src="http://placehold.it/344x475">
+              <img src="./images/binjal-patel.jpg">
             </div>
             <div class="profile-description">
               <ul>
-                <li><h2 class="profile-header">Binjal D Patel</h2></li>
+                <li><h4 class="profile-header">Binjal D Patel</h4></li>
                 <li>Presentation ID: #1</li>
                 <li>  <!-- Modal Trigger -->
-                  <button data-target="modal1" class="btn modal-trigger indigo darken-4">view bio</button>
+                  <button data-target="modal1" class="btn modal-trigger indigo darken-4">view diary</button>
                 </li>
               </ul>
             </div>
@@ -75,15 +78,15 @@
         <div class="col s12 m4">
           <div class="profile-container">
             <div class="profile-image-container">
-              <img src="http://placehold.it/344x475">
+              <img src="./images/arpit-jain.jpg">
             </div>
             <div class="profile-description">
               <ul>
-                <li><h2 class="profile-header">Arpit Jain</h2></li>
+                <li><h4 class="profile-header">Arpit Jain</h4></li>
                 <li>Presentation ID: #15</li>
-
-                  <button data-target="modal2" class="btn modal-trigger indigo darken-4">view bio</button>
-
+                <li>  <!-- Modal Trigger -->
+                  <button data-target="modal2" class="btn modal-trigger indigo darken-4">view diary</button>
+                </li>
               </ul>
             </div>
           </div><!-- end of profile container -->
@@ -92,14 +95,14 @@
         <div class="col s12 m4">
           <div class="profile-container">
             <div class="profile-image-container">
-              <img src="http://placehold.it/344x475">
+              <img src="http://placehold.it/244x336">
             </div>
             <div class="profile-description">
               <ul>
-                <li><h2 class="profile-header">Thinh Q Tran</h2></li>
+                <li><h4 class="profile-header">Thinh Q Tran</h4></li>
                 <li>Presentation ID: #7</li>
                 <li>  <!-- Modal Trigger -->
-                  <button data-target="modal3" class="btn modal-trigger indigo darken-4">view bio</button>
+                  <button data-target="modal3" class="btn modal-trigger indigo darken-4">view diary</button>
                 </li>
               </ul>
             </div>
@@ -112,14 +115,14 @@
         <div class="col s12 m4">
           <div class="profile-container">
             <div class="profile-image-container">
-              <img src="http://placehold.it/344x475">
+              <img src="./images/vanitha-rao.jpg">
             </div>
             <div class="profile-description">
               <ul>
-                <li><h2 class="profile-header">Vanitha Rao</h2></li>
+                <li><h4 class="profile-header">Vanitha Rao</h4></li>
                 <li>Presentation ID: #24</li>
                 <li>  <!-- Modal Trigger -->
-                  <button data-target="modal4" class="btn modal-trigger indigo darken-4">view bio</button>
+                  <button data-target="modal4" class="btn modal-trigger indigo darken-4">view diary</button>
                 </li>
               </ul>
             </div>
@@ -129,14 +132,14 @@
         <div class="col s12 m4">
           <div class="profile-container">
             <div class="profile-image-container">
-              <img src="/images/demaria-woods.jpg">
+              <img src="./images/demaria-woods.jpg">
             </div>
             <div class="profile-description">
               <ul>
-                <li><h2 class="profile-header">Demaria Woods</h2></li>
+                <li><h4 class="profile-header">Demaria Woods</h4></li>
                 <li>Presentation ID: #12</li>
                 <li>  <!-- Modal Trigger -->
-                  <button data-target="modal5" class="btn modal-trigger indigo darken-4">view bio</button>
+                  <button data-target="modal5" class="btn modal-trigger indigo darken-4">view diary</button>
                 </li>
               </ul>
             </div>
@@ -144,24 +147,80 @@
         </div>
 
         <div class="col s12 m4">
-      
+
         </div>
       </div> <!-- end of row-->
 
     </div>
+
+
+      <div class="section">
+        <h2 class="center indigo-text">Our Project</h2>
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+
+            <p class="left-align light">Short description coming soon....</p>
+            <p> <a href="#bottom2" id="top2" class="btn-large waves-effect waves-light blue lighten-1">View Group Dairy</a></p>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="section">
+      <a href="#top2" id="bottom2"></a>
+      <table class="striped responsive-table">
+        <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td>27th August 2018</td>
+          <td>Group mates gathered and made decisions on project</td>
+        </tr>
+        <tr>
+          <td>3rd September 2018</td>
+          <td>Started building group home page </td>
+        </tr>
+        <tr>
+          <td>5th September 2018</td>
+          <td>Group Home page has been Completed Successfully</td>
+        </tr>
+
+        <tr>
+          <td>16th September 2018</td>
+          <td>Made a few changes too Group home page</td>
+        </tr>
+
+
+        <tr>
+          <td>30th September 2018</td>
+          <td>Made a final decision in building a project</td>
+        </tr>
+
+        </tbody>
+      </table>
+    </div>
+
   </div>
 
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Binjal's bio</h4>
-      <p>Bio coming soon...</p>
-      <!--<div class="col sm12 col m6">-->
-      <!--<img src="http://placehold.it/600x600" style="width: 60%;">-->
-      <!--</div>-->
-      <!--<div class="col sm12 col m6">-->
-      <!--<p></p>-->
-      <!--</div>-->
+      <h4 class="center indigo-text">Binjal's Diary</h4>
+      <div class="row">
+        <div class="col sm12 col m3">
+          <img src="./images/binjal-patel.jpg" style="width: 100%;">
+        </div>
+        <div class="col sm12 col m9">
+          <p>Hello , I am Binjal Patel, I am graduated from Symbiosis International University,Pune,INDIA. I am pursuing Master's Degree in Computer Science.</p>
+        </div>
+      </div>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -171,14 +230,15 @@
   <!-- Modal Structure -->
   <div id="modal2" class="modal">
     <div class="modal-content">
-      <h4>Arpit's bio</h4>
-      <p>Bio coming soon...</p>
-      <!--<div class="col sm12 col m6">-->
-      <!--<img src="http://placehold.it/600x600" style="width: 60%;">-->
-      <!--</div>-->
-      <!--<div class="col sm12 col m6">-->
-      <!--<p></p>-->
-      <!--</div>-->
+      <h4 class="center indigo-text">Arpit's Diary</h4>
+      <div class="row">
+        <div class="col sm12 col m3">
+          <img src="./images/arpit-jain.jpg" style="width: 100%;">
+        </div>
+        <div class="col sm12 col m9">
+          <p>Hello , I am Arpit Jain, I am graduated from Rajasthan Techncal University,INDIA. I also have work experience as a Salesforce Developer and currently. I am pursuing Master's Degree in Computer Science.</p>
+        </div>
+      </div>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -188,13 +248,16 @@
   <!-- Modal Structure -->
   <div id="modal3" class="modal">
     <div class="modal-content">
-      <h4>Thinh's bio</h4>
+      <h4 class="center indigo-text">Thinh's Diary</h4>
       <p>Bio coming soon...</p>
-      <!--<div class="col sm12 col m6">-->
-      <!--<img src="http://placehold.it/600x600" style="width: 60%;">-->
+      <!--<div class="row">-->
+      <!--<div class="col sm12 col m3">-->
+      <!--<img src="http://placehold.it/344x475" style="width: 100%;">-->
       <!--</div>-->
-      <!--<div class="col sm12 col m6">-->
+      <!--<div class="col sm12 col m9">-->
       <!--<p></p>-->
+      <!--</div>-->
+
       <!--</div>-->
     </div>
     <div class="modal-footer">
@@ -206,14 +269,16 @@
   <!-- Modal Structure -->
   <div id="modal4" class="modal">
     <div class="modal-content">
-      <h4>Vanitha's bio</h4>
-      <p>Bio coming soon...</p>
-      <!--<div class="col sm12 col m6">-->
-        <!--<img src="http://placehold.it/600x600" style="width: 60%;">-->
-      <!--</div>-->
-      <!--<div class="col sm12 col m6">-->
-        <!--<p></p>-->
-      <!--</div>-->
+      <h4 class="center indigo-text">Vanitha's Diary</h4>
+      <div class="row">
+        <div class="col sm12 col m3">
+          <img src="./images/vanitha-rao.jpg" style="width: 100%;">
+        </div>
+        <div class="col sm12 col m9">
+          <p>Hello , I am Vanitha Rao, I am graduated from Bharathidasan University,Trichy,INDIA. I am pursuing Master's Degree in Computer Science.</p>
+        </div>
+      </div>
+
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -223,12 +288,12 @@
   <!-- Modal Structure -->
   <div id="modal5" class="modal">
     <div class="modal-content">
-      <h4>Demria's bio</h4>
+      <h4 class="center indigo-text">Demaria's Diary</h4>
       <div class="row">
-        <div class="col sm12 col m6">
-          <img src="/images/demaria-woods.jpg" style="width: 60%;">
+        <div class="col sm12 col m3">
+          <img src="./images/demaria-woods.jpg" style="width: 100%;">
         </div>
-        <div class="col sm12 col m6">
+        <div class="col sm12 col m9">
           <p>Hello all, my name is Demaria Woods, I'm a recent graduate of the University of Houston, earning a Bachelor's of Science in Computer Information Systems with a minor in Computer Graphics Technology and Iam currently pursuing a Master's Degree in Computer Information Systems. I work as a Full-Time Web Developer for the University of Houston located in Houston, TX.</p>
         </div>
       </div>
@@ -240,19 +305,6 @@
   </div>
 
 
-  <div class="container">
-    <div class="section">
-           <h2 class="center indigo-text">Our Project</h2>
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-
-          <p class="left-align light">Short description coming soon....</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
 
 
 
@@ -260,10 +312,9 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Group 4 Bio</h5>
+          <h5 class="white-text">Group 1's Dairy</h5>
           <p class="grey-text text-lighten-4"> We are group of highly talented and highly trained professionals in developing information systems.</p>
         </div>
-
       </div>
     </div>
     <div class="footer-copyright">
@@ -272,6 +323,7 @@
       </div>
     </div>
   </footer>
+
 
 
   <!--  Scripts-->
@@ -304,5 +356,6 @@
 
 	  });
   </script>
+
   </body>
 </html>
