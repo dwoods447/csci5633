@@ -37,14 +37,15 @@
             <h5 class="header col s12 light" style="text-shadow: 2px 2px darkblue;">A group of highly talented and highly trained professionals in developing information systems.</h5>
           </div>
           <div class="row center">
-            <a href="#bottom" id="top" class="btn-large waves-effect waves-light blue lighten-1">meet the team</a>
+           <a href="#bottom" id="top" class="btn-large waves-effect waves-light blue lighten-1">meet the team</a>
+             <a href="#bottom2" id="top2" class="btn-large waves-effect waves-light blue lighten-1">View Group Dairy</a>
           </div>
         </div>
 
       </div>
     </div>
     <!--<div class="parallax"><img src="/images/network-3537401_1920.jpg" alt="Unsplashed background img 1"></div>-->
-    <video autoplay muted loop id="myVideo">
+    <video autoplay muted loop id="myVideo" style="min-width: 100vw;">
       <source src="./videos/home-page-video.mp4" type="video/mp4">
     </video>
   </div>
@@ -161,7 +162,7 @@
             <h3><i class="mdi-content-send brown-text"></i></h3>
 
             <p class="left-align light">Short description coming soon....</p>
-            <p> <a href="#bottom2" id="top2" class="btn-large waves-effect waves-light blue lighten-1">View Group Dairy</a></p>
+           
           </div>
         </div>
       </div>
@@ -169,6 +170,7 @@
 
 
     <div class="section">
+        <h2 class="center indigo-text">Our Group Dairy</h2>
       <a href="#top2" id="bottom2"></a>
       <table class="striped responsive-table">
         <thead>
@@ -334,6 +336,7 @@
   <script>
 	  document.addEventListener('DOMContentLoaded', function() {
 		  var elems = document.querySelectorAll('.modal');
+      var options = "";
 		  var instances = M.Modal.init(elems, options);
 	  });
 
